@@ -5,7 +5,7 @@ export const menuItemsData = defineStore("items", {
   state: () => ({
     menuData: [
       {
-        img: "/src/assets/media/Mask group.png",
+        img: "/src/assets/Media/images/Appetizers.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -17,7 +17,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/media/fish.png",
+        img: "/src/assets/Media/images/fish.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -29,7 +29,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/media/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
+        img: "/src/assets/Media/images/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
 
         name: "Name Meal",
         selected: false,
@@ -42,7 +42,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/media/fish.png",
+        img: "/src/assets/Media/images/fish.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -54,7 +54,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/media/Pasta.png",
+        img: "/src/assets/Media/images/Pasta.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -66,7 +66,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/media/ccc.png",
+        img: "/src/assets/Media/images/ccc.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -78,7 +78,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/media/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
+        img: "/src/assets/Media/images/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -90,7 +90,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/media/ccc.png",
+        img: "/src/assets/Media/images/ccc.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -102,7 +102,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/media/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
+        img: "/src/assets/Media/images/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -114,7 +114,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/media/ccc.png",
+        img: "/src/assets/Media/images/ccc.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",

@@ -2,7 +2,7 @@
   <div>
     <Navbar></Navbar>
     <img
-      src="/src/assets/media/Mask group.png"
+      src="/src/assets/Media/Banners/Mask group.png"
       style="width: 100%"
       alt="menu main image"
     />
