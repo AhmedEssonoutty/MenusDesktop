@@ -4,7 +4,7 @@
       <div style="height: 22.3rem; line-height: 22.3rem">
         <img
           class="img-card"
-          :src="allItems.img"
+          :src="`${allItems.img}`"
           alt="meal image"
           style="width: 12.4rem; height: 12.4rem"
         />

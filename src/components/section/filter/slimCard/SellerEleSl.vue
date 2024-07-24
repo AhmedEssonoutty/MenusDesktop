@@ -71,7 +71,7 @@
     <!-- img -->
     <div class="text-center" style="width: 30%">
       <img
-        :src="allItems.img"
+        :src="`${allItems.img}`"
         alt="meal image"
         style="width: 10.4rem; height: 10.4rem"
       />

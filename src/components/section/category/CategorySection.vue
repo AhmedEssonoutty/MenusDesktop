@@ -9,7 +9,7 @@
         :key="i"
         :id="`item-${item.id}`"
       >
-        <img :src="item.img" class="meal-img" alt="meal image" />
+        <img :src="`${item.img}`" class="meal-img" alt="meal image" />
         <p class="style-4">{{ $t(item.title) }}</p>
         <p class="style-3 text-center">{{ $t(item.content) }}</p>
       </button>
