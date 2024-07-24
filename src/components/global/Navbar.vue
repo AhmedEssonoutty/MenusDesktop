@@ -1,6 +1,6 @@
 <template>
   <div class="nav-container">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-sm">
       <div class="container-fluid">
         <!-- brand logo -->
         <a class="navbar-brand mx-5" href="#">
