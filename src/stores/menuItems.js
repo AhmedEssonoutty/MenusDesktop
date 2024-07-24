@@ -5,7 +5,7 @@ export const menuItemsData = defineStore("items", {
   state: () => ({
     menuData: [
       {
-        img: "/src/assets/Media/Banners/Appetizers.png",
+        img: "/assets/Appetizers.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
