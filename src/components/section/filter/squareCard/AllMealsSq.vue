@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-wrap">
+  <div class="center-row flex-wrap">
     <div v-for="(item, i) in props.meals" :key="i" class="mx-auto">
       <SellerEle :allItems="item"></SellerEle>
     </div>

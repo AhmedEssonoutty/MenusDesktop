@@ -4,7 +4,7 @@
       <button
         @click="handleFilter(item.title, item.id)"
         v-for="(item, i) in categCards"
-        class="center-col justify-content-between categ-card"
+        class="center-col justify-content-between categ-card mx-auto"
         :class="`${item.active ? 'shadow' : ''}`"
         :key="i"
         :id="`item-${item.id}`"

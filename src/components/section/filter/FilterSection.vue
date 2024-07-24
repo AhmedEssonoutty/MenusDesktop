@@ -3,7 +3,7 @@
     <CategorySection @filter="handleFilter($event)"></CategorySection>
 
     <!-- slider -->
-    <div class="center-row justify-content-between align-items-center">
+    <div class="center-row justify-content-between align-items-center mt-5">
       <div class="center-row justify-content-start align-items-center">
         <div class="slider-box">
           <div
