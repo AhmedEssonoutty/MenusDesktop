@@ -5,6 +5,7 @@
       <span class="style-4"
         >{{ $t(allItems.name) }}
         <svg
+          v-if="title == 'trending'"
           xmlns="http://www.w3.org/2000/svg"
           style="width: 2.3rem; height: 2.3rem"
           viewBox="0 0 23.027 23.037"
@@ -99,7 +100,7 @@
 </template>
 
 <script setup>
-const props = defineProps(["allItems"]);
+const props = defineProps(["allItems", "title"]);
 </script>
 
 <style lang="scss" scoped></style>

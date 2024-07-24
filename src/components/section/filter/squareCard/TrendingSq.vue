@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-wrap">
     <div v-for="(item, i) in props.meals" :key="i" class="mx-auto">
-      <SellerEle :allItems="item"></SellerEle>
+      <SellerEle :title="'trending'" :allItems="item"></SellerEle>
     </div>
   </div>
 </template>

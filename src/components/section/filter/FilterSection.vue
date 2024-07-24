@@ -18,11 +18,16 @@
             :id="`menu-item_${el.id}`"
           >
             <div
-              style="position: absolute; right: 0; top: -5px"
+              style="position: absolute; left: 60%; top: -5px"
               v-html="el.icon"
             ></div>
 
-            <div class="style-6">{{ $t(el.title) }}</div>
+            <div
+              class="style-6"
+              :style="`${el.title == 'Trending' ? 'position: relative;' : ''}`"
+            >
+              {{ $t(el.title) }}
+            </div>
           </button>
         </div>
 

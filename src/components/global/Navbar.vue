@@ -139,25 +139,20 @@
             >
               {{ $t("EN") }}
             </button>
-
             <ul class="dropdown-menu">
-              <li class="px-3">
-                <button
-                  class="style-3"
-                  type="button"
-                  @click="($i18n.locale = `AR`), setDirection('rtl')"
-                >
-                  AR
-                </button>
+              <li
+                class="px-3"
+                style="cursor: pointer; text-align: center"
+                @click="($i18n.locale = `AR`), setDirection('rtl')"
+              >
+                <button class="style-3" type="button">AR</button>
               </li>
-              <li class="px-3">
-                <button
-                  class="style-3"
-                  type="button"
-                  @click="($i18n.locale = 'EN'), setDirection('ltr')"
-                >
-                  EN
-                </button>
+              <li
+                class="px-3"
+                style="cursor: pointer; text-align: center"
+                @click="($i18n.locale = 'EN'), setDirection('ltr')"
+              >
+                <button class="style-3" type="button">EN</button>
               </li>
             </ul>
           </div>
