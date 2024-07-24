@@ -6,6 +6,11 @@
       style="width: 100%"
       alt="menu main image"
     />
+    <img
+      src="/src/assets/Media/images/Appetizers.png"
+      style="width: 100%"
+      alt="menu main image"
+    />
     <main>
       <div style="min-height: 80vh">
         <slot></slot>
