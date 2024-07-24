@@ -5,7 +5,7 @@ export const menuItemsData = defineStore("items", {
   state: () => ({
     menuData: [
       {
-        img: "/assets/Appetizers.png",
+        img: "src/assets/Media/Banners/Appetizers.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -17,7 +17,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: `/assets/fish.png`,
+        img: `src/assets/Media/Banners/fish.png`,
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -29,7 +29,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/assets/meatGrill.png",
+        img: "src/assets/Media/Banners/meatGrill.png",
 
         name: "Name Meal",
         selected: false,
@@ -42,7 +42,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/assets/fish.png",
+        img: "src/assets/Media/Banners/fish.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -54,7 +54,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/assets/Pasta.png",
+        img: "src/assets/Media/Banners/Pasta.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -66,7 +66,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/assets/ccc.png",
+        img: "src/assets/Media/Banners/ccc.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -78,7 +78,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/assets/meatGrill.png",
+        img: "src/assets/Media/Banners/meatGrill.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -90,7 +90,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/assets/ccc.png",
+        img: "src/assets/Media/Banners/ccc.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -102,7 +102,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/assets/meatGrill.png",
+        img: "src/assets/Media/Banners/meatGrill.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -114,7 +114,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/assets/ccc.png",
+        img: "src/assets/Media/Banners/ccc.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
