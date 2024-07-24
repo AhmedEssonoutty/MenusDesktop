@@ -1,12 +1,11 @@
 <template>
-  <div class="nav-container">
+  <div class="nav-container footer-bar">
     <nav class="navbar">
       <div class="container-fluid d-flex justify-content-between">
         <!-- brand logo -->
         <a class="navbar-brand mx-5" href="#">
           <svg
-            width="41"
-            height="53"
+            style="width: 4.1rem; height: 5.3rem"
             viewBox="0 0 41 53"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -125,8 +124,7 @@
               <a href="tel:+0123456789" class="style-5">
                 <span style="position: relative">
                   <svg
-                    width="38"
-                    height="38"
+                    style="width: 3.8rem; height: 3.8rem"
                     viewBox="0 0 38 38"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -139,9 +137,9 @@
                       top: 50%;
                       left: 50%;
                       transform: translate(-50%, -30%);
+                      width: 1.8rem;
+                      height: 1.8rem;
                     "
-                    width="18"
-                    height="18"
                     viewBox="0 0 18 18"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -162,8 +160,7 @@
               <a href="tel:+0123456789" class="style-5">
                 <span style="position: relative">
                   <svg
-                    width="38"
-                    height="38"
+                    style="width: 3.8rem; height: 3.8rem"
                     viewBox="0 0 38 38"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -176,9 +173,9 @@
                       top: 50%;
                       left: 50%;
                       transform: translate(-50%, -30%);
+                      width: 1.8rem;
+                      height: 1.8rem;
                     "
-                    width="18"
-                    height="18"
                     viewBox="0 0 18 18"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"

@@ -1,6 +1,7 @@
 <template>
   <div class="container-custom">
     <CategorySection @filter="handleFilter($event)"></CategorySection>
+
     <!-- slider -->
     <div class="center-row justify-content-between align-items-center">
       <div class="center-row justify-content-start align-items-center">
@@ -31,8 +32,7 @@
           @click="square = true"
         >
           <svg
-            width="19"
-            height="18"
+            style="width: 1.9rem; height: 1.8rem"
             viewBox="0 0 19 18"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -51,8 +51,7 @@
           @click="square = false"
         >
           <svg
-            width="18"
-            height="10"
+            style="width: 1.8rem; height: 1rem"
             viewBox="0 0 18 10"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -69,6 +68,7 @@
         <span class="style-6">{{ $t("Calories") }} </span>
       </div>
     </div>
+
     <!-- sections -->
     <div class="border-top pt-5">
       <TransitionGroup name="list" tag="ul">
@@ -100,14 +100,15 @@
         ></DiscountSl>
       </TransitionGroup>
     </div>
+
+    <!-- pagination -->
     <div class="pagination-comp">
       <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
           <li class="page-item disabled">
             <a class="page-link">
               <svg
-                width="44"
-                height="44"
+                style="width: 4.4rem; height: 4.4rem"
                 viewBox="0 0 44 44"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -133,8 +134,7 @@
           <li class="page-item">
             <a class="page-link" href="#">
               <svg
-                width="44"
-                height="44"
+                style="width: 4.4rem; height: 4.4rem"
                 viewBox="0 0 44 44"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -188,8 +188,7 @@ const filteBtns = ref([
   {
     icon: `<svg
             xmlns="http://www.w3.org/2000/svg"
-            width="23.027"
-            height="23.037"
+            style="width:2.3rem;height:2.3rem"
             viewBox="0 0 23.027 23.037"
           >
             <g

@@ -25,7 +25,7 @@ const emits = defineEmits(["filter"]);
 
 const categCards = ref([
   {
-    img: "/src/assets/Media/images/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
+    img: "/src/assets/Media/images/meatGrill.png",
     id: 1,
     active: false,
     title: "beef",

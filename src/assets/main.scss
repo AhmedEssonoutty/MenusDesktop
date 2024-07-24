@@ -50,6 +50,10 @@ body {
   font-weight: var(--fw-normal);
 }
 
+#app {
+  min-height: 100vh;
+}
+
 input:focus {
   outline: none;
 }
@@ -63,15 +67,19 @@ a:visited {
 }
 
 .container-custom {
-  width: 140rem;
+  max-width: 140rem;
   margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-// .content {
-//   min-height: 100vh !important;
-// }
+.content {
+  min-height: 100vh;
+}
 
 .nav-container {
+  width: 100%;
   background-color: var(--col-test);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   nav {
@@ -92,6 +100,7 @@ a:visited {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 // head and footer
@@ -188,7 +197,6 @@ a:visited {
 }
 
 .pagination-comp {
-  margin-top: 5rem;
   direction: ltr !important;
   .pagination {
     gap: 1rem;
@@ -210,4 +218,18 @@ a:visited {
       }
     }
   }
+}
+
+.footer-bar {
+  z-index: 999;
+  width: 100%;
+  margin-top: auto;
+}
+
+.test-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }

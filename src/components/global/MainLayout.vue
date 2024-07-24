@@ -1,13 +1,15 @@
 <template>
-  <div>
+  <div class="test-container">
     <Navbar></Navbar>
     <img
-      src="/src/assets/Media/Banners/Mask group.png"
+      src="/src/assets/Media/Banners/Maskgroup.png"
       style="width: 100%"
       alt="menu main image"
     />
-    <main class="content">
-      <slot></slot>
+    <main>
+      <div style="min-height: 80vh">
+        <slot></slot>
+      </div>
     </main>
     <Footer></Footer>
   </div>

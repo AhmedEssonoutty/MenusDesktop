@@ -27,8 +27,7 @@
             >{{ $t(allItems.calor) }}
             <button>
               <svg
-                width="16"
-                height="20"
+                style="width: 1.6rem; height: 2rem"
                 viewBox="0 0 16 20"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

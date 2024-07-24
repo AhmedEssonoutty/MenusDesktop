@@ -29,7 +29,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/Media/images/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
+        img: "/src/assets/Media/images/meatGrill.png",
 
         name: "Name Meal",
         selected: false,
@@ -78,7 +78,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/Media/images/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
+        img: "/src/assets/Media/images/meatGrill.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
@@ -102,7 +102,7 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/Media/images/grilled_ribeye_beef_steak_2022_09_08_23_54_06_utc.png",
+        img: "/src/assets/Media/images/meatGrill.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",

@@ -6,8 +6,7 @@
         >{{ $t(allItems.name) }}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="23.027"
-          height="23.037"
+          style="width: 2.3rem; height: 2.3rem"
           viewBox="0 0 23.027 23.037"
         >
           <g
@@ -84,8 +83,7 @@
         >{{ $t(allItems.calor) }}
         <button>
           <svg
-            width="16"
-            height="20"
+            style="width: 1.6rem; height: 2rem"
             viewBox="0 0 16 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
