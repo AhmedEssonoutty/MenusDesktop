@@ -1,5 +1,5 @@
 <template>
-  <div class="container-custom">
+  <div>
     <div class="center-row justify-content-between" style="height: fit-content">
       <button
         @click="handleFilter(item.title, item.id)"

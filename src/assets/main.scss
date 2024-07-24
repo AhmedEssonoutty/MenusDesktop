@@ -69,6 +69,7 @@ a:visited {
 .container-custom {
   max-width: 140rem;
   margin: 5rem auto;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -198,6 +199,8 @@ a:visited {
 
 .pagination-comp {
   direction: ltr !important;
+  justify-self: flex-end;
+  margin-top: auto;
   .pagination {
     gap: 1rem;
     .page-item {
