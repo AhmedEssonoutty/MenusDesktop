@@ -25,7 +25,7 @@ const emits = defineEmits(["filter"]);
 
 const categCards = ref([
   {
-    img: "./src/assets/Media/Banners/meatGrill.png",
+    img: "/assets/meatGrill.png",
     id: 1,
     active: false,
     title: "beef",
@@ -33,7 +33,7 @@ const categCards = ref([
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
-    img: "./src/assets/Media/Banners/fish.png",
+    img: "/assets/fish.png",
     id: 2,
     active: false,
     title: "fish",
@@ -41,7 +41,7 @@ const categCards = ref([
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
-    img: "./src/assets/Media/Banners/Appetizers.png",
+    img: "/assets/Appetizers.png",
     id: 3,
     active: false,
     title: "appetizers",
@@ -49,7 +49,7 @@ const categCards = ref([
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
-    img: "./src/assets/Media/Banners/Pasta.png",
+    img: "/assets/Pasta.png",
     id: 4,
     active: false,
     title: "pasta",
