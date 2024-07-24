@@ -75,9 +75,6 @@
         alt="meal image"
         style="width: 10.4rem; height: 10.4rem"
       />
-      <div class="bg-info">
-        <img src="/src/assets/Media/Banners/meatGrill.png" alt="" />
-      </div>
     </div>
 
     <!-- price -->

@@ -102,7 +102,8 @@ export const menuItemsData = defineStore("items", {
         calor: "1086",
       },
       {
-        img: "/src/assets/Media/Banners/meatGrill.png",
+        // img: "/src/assets/Media/Banners/meatGrill.png",
+        img: "/assets/Maskgroup-BHiCBtS2.png",
         name: "Name Meal",
         selected: false,
         description: "Description meal Lorem Ipsum is simply dummy",
